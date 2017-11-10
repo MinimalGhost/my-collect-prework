@@ -7,7 +7,7 @@ def my_collect(array)
 
     while i < array.length
       yield array[i]
-      yield newArr.push(array[i])
+      newArr.push(array[i])
       i += 1
     end
 
